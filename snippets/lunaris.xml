@@ -20,6 +20,12 @@
           sync-j="4"
           revision="16" />
 
+    <remote name="giulia"
+          fetch="https://github.com/oplus-giulia-dev"
+          sync-c="true"
+          sync-j="4"
+          revision="lineage-23.0" />
+  
   <!-- Android Manifest  -->
   <project path="android" name="android" remote="lunaris" />
   
@@ -136,4 +142,5 @@
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="lunaris" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="lunaris" />
   <project path="vendor/gms" name="vendor_gms" remote="lunaris-codeberg" clone-depth="1" />
+
 </manifest>
