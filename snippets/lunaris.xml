@@ -20,7 +20,7 @@
           sync-j="4"
           revision="16" />
 
-    <remote name="giulia"
+  <remote name="giulia"
           fetch="https://github.com/oplus-giulia-dev"
           sync-c="true"
           sync-j="4"
@@ -144,3 +144,4 @@
   <project path="vendor/gms" name="vendor_gms" remote="lunaris-codeberg" clone-depth="1" />
 
 </manifest>
+
